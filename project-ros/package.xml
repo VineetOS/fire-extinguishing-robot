@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>fire-extinguisher-robot</name>
+  <version>0.0.0</version>
+  <description>This package implements a autonomous fire fighting robot using turtlebot3 waffle-pi and OpenCR manipulator. It has been tested using Turtlebot 3 waffle pi model.</description>
+
+  <maintainer email="oswal.1@iitj.ac.in">Sadman Sakib Enan</maintainer>
+
+  <license>TODO</license>
+  <url type="website">https://github.com/VineetOS/</url>
+
+  <buildtool_depend>catkin</buildtool_depend>
+  <build_depend>rospy</build_depend>
+  <build_export_depend>rospy</build_export_depend>
+  <exec_depend>rospy</exec_depend>
+
+  <export>
+
+  </export>
+</package>
