@@ -1,4 +1,4 @@
-# A Naive Obstacle Avoidance Technique for Turtlebot 3 implemented in ROS
+# Fire Extinguisher Robot using turtlebot3 waffle-pi
 This is a part of my small effort in creating some basic projects implemented in ROS. As I am totally new at learning ROS, feel free to give constructive comments. If you are absolutely new at learning ROS, it might help you. You may use the codes as-is. 
 
 ## Introduction 
@@ -6,26 +6,16 @@ This is an obstacle avoidance technique simulated with Turtlebot 3 in Gazebo, RO
 
 ## Pre-requisites
 - Python 2 
-- Gazebo (comes pre-installed with ros-desktop-full)
-- [Turtlebot 3 simulation package](https://github.com/ROBOTIS-GIT/turtlebot3_simulations.git)
+- ROS (Tested for Melodic)
+- Turtlebot 3 Waffle Pi with OpenCR manipulator (Can also be used for Turtlebot3 Burger or Waffle) 
 
 ## Installation
 ```
 cd ~/catkin_ws/src
-git clone https://github.com/enansakib/obstacle-avoidance-turtlebot.git
+git clone https://github.com/enansakib/fire-extinguishing-robot.git
 cd ~/catkin_ws
 catkin_make
 ```
-
-## Usage
-```
-roslaunch turtlebot3_gazebo turtlebot3_world.launch
-roslaunch obstacle-avoidance-turtlebot naive_obs_avoid.launch
-```
-
-## Demo
-![demo.gif](demo/demo.gif)
-
 
 ## Details
 The code inside the `src` folder already has necessary comments to understand what's going on. 
